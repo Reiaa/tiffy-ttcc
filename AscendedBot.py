@@ -11,7 +11,7 @@ def channel_check(channel_id):
     return commands.check(predicate)
 
 
-bot = commands.Bot(command_prefix='!')
+bot = commands.Bot(command_prefix='!!!')
 bot.remove_command('help')
 
 
